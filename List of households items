@@ -1,5 +1,10 @@
-Console.WriteLine("Telivision");
-Console.WriteLine("Table");
-Console.WriteLine("Chair");
-Console.WriteLine("Sofa");
-Console.WriteLine("Washing Machine");
+List<string> household_items = new List<string> household_items();
+household_items.Add(" T.V ");
+household_items.Add(" A.C ");
+household_items.Add(" Bed ");
+household_items.Add(" Sofa ");
+household_items.Add(" Dinning Table ");
+foreach(( Var u in household_items ))
+Console.WriteLine ( u );
+
+household_items.Add("Chair");
